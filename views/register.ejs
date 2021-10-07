@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="resources/css/login.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/navbar.css">
+        <title>Log In</title>
+    </head>
+    <body>
+        <nav>
+            <ul class="nav-bar-list">
+                <li class="active"><a href="/login">Log In</a></li>   
+                <li><a href="/contact">Contact</a></li>   
+                <li><a href="/about">About</a></li>   
+                <li><a href="/">Home</a></li>   
+            </ul>
+            <img src="resources/images/Logo.png" id="logo-img">
+        </nav>  
+            <form action="register" method="POST" class="mitad">
+                <div class="login-form-box"> 
+                    <img src="resources/images/Logo2.png">
+                    <div class="login-header">Register</div>
+                    <input name="user"  id="user"  type="text" placeholder="Nombre">
+                    <input name="email"  id="email"  type="text" placeholder="Correo Electrónico">
+                    <input name="pass"  id="pass" type="password" placeholder="Contraseña">
+                </div>
+                <div class="login-form-box">
+                    <input name="last"  id="last"  type="text" placeholder="Apellido"">
+                    <input name="cel"  id="cel" type="number" placeholder="Celular">
+                    <input name="cpass"  id="cpass" type="password" placeholder="Confirma contraseña">
+                    <div class="login-signup-container">
+                        <input type="submit" value="save" style=" padding-left: 3%; padding-right: 3%;  padding: 2%;background-color: #016AE8; color: white; margin-left: 5%; font-weight: bold; border: 0;">
+                    </div>
+                </div>
+            </form>
+        
+    </body>
+</html>
+
+
+
+
+
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="register-form">
+        <h1>form register</h1>
+        <form action="register" method="POST">
+            <label for="user">user name</label>
+            <input type="text" name="user" required>
+
+            <label for="pass">password</label>
+            <input type="password" name="pass" required>
+
+            <div style="display: inline;">
+                <a href="btn-cancel">Cancel</a> <input type="submit" class="btn-save" value="save">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
+
+-->

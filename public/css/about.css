@@ -1,0 +1,134 @@
+    footer {
+        background-color: #3B4B96;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 5%;
+        color: white;
+        text-align: center;
+        font-family: 'nunito',
+            sans-serif;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    .topNav {
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: none;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .topNav a {
+        text-align: left;
+        text-decoration: none;
+        font-size: 1.5rem;
+        padding-right: 3.5rem;
+        padding-top: 0.6rem;
+        font-family: 'nunito',
+            sans-serif;
+        font-style: normal;
+        color: white;
+    }
+
+    p,
+    h1,
+    h2,
+    h3 {
+        margin: 0;
+
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .nav {
+        z-index: 2;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-right: 15px;
+        text-align: left;
+    }
+
+    .titulo {
+        z-index: 2;
+        font-size: 64px;
+        font-family: "Raleway";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: bolder;
+    }
+
+    .circulo {
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+    }
+
+    .containerhero {
+        text-align: center;
+        color: white;
+
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+
+    }
+
+    .row>div {
+        flex-basis: 100%;
+    }
+
+    .col {
+        display: flex;
+        flex-direction: column;
+        min-height: max-content;
+    }
+
+    .cuadro {
+        flex-grow: 2;
+    }
+
+    .map_container {
+        width: 100%;
+        padding: 7%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    p {
+        font-size: 19px;
+        font-family: sans-serif;
+        color: white;
+    }
+
+    h1 {
+        font-size: 36px;
+        font-family: sans-serif;
+        padding-bottom: 5%;
+    }

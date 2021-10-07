@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="resources/css/login.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/navbar.css">
+        <title>Log In</title>
+    </head>
+    <body>
+        <nav>
+            <ul class="nav-bar-list">
+                <li class="active"><a href="/login">Log In</a></li>   
+                <li><a href="/contact">Contact</a></li>   
+                <li><a href="/about">About</a></li>   
+                <li><a href="/">Home</a></li>   
+            </ul>
+            <img src="resources/images/Logo.png" id="logo-img">
+        </nav>  
+        
+        <form action="auth" method="POST" class="login-form-box" style="position: absolute; top:25%; left:35%;">
+            <img src="resources/images/Logo2.png">
+            <div class="login-header">Iniciar Sesión</div>
+            <input name="user"  id="user"  type="text" placeholder="Usuario">
+            <input name="pass"  id="pass" type="password" placeholder="Contraseña">
+            <div class="login-signup-container">
+                <label>¿No tienes una cuenta?</label>
+                <a href="/register">Crea una</a>
+                <input type="submit" value="Login" style=" padding-left: 3%; padding-right: 3%;  padding: 2%;background-color: #016AE8; color: white; margin-left: 5%; font-weight: bold; border: 0;">
+            </div>
+        </form>
+    </body>
+</html>
+
+
