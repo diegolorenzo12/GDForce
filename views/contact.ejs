@@ -10,7 +10,14 @@
     <body>
         <nav>
             <ul class="nav-bar-list">
-                <li><a href="/login">Log In</a></li>   
+
+                
+                <% if(login){ %>
+                    <li><a href="/dashboard">Dashboard</a></li>   
+                <% }else{ %>
+                    <li><a href="/login">Log In</a></li>   
+                <% } %>
+                
                 <li class="active"><a href="/contact">Contact</a></li>   
                 <li><a href="/about">About</a></li>   
                 <li><a href="/">Home</a></li>   

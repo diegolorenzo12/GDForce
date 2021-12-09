@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="resources/css/navbar.css">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+        <title>Contact Us</title>
+
+        <style>
+            .titulo{
+                font-size: 64px;
+                font-family: "Raleway";
+                font-weight: bolder;
+                align-content: center;
+            }
+            .titulo2{
+                font-size: 32px;
+                font-family: "Raleway";
+                font-weight: bolder;
+            }
+            .texto {
+                font-size: 19px;
+                font-family: sans-serif;
+                color: rgb(0, 0, 0);
+            }
+        </style>
+        
+    </head>
+    <body>
+        <nav>
+            <ul class="nav-bar-list">
+
+                
+                <% if(login){ %>
+                    <li><a href="/dashboard">Dashboard</a></li>   
+                <% }else{ %>
+                    <li><a href="/login">Log In</a></li>   
+                <% } %>
+                
+                <li class="active"><a href="/contact">Contact</a></li>   
+                <li><a href="/about">About</a></li>   
+                <li><a href="/">Home</a></li>   
+            </ul>
+            <img src="resources/images/Logo.png" id="logo-img">
+        </nav>  
+        <div style="padding-left: 5%">
+            <div style=" display: flex; justify-content: center;">
+                <h1 class="titulo">Descarga nuestra app!</h1>
+            </div>
+            
+
+            <div>
+                <h2 class="titulo2">Ventaja de descargar nuestra app</h1>
+                <ul>
+                    <li class="texto">
+                        Contactate con nosotros de manera más facil. 
+                    </li>
+                    <li class="texto">
+                       Contrata nuetros servicios desde la comodidad de tu celular.
+                    </li>
+                    <li class="texto">
+                        Observa tu dashboard y entérate de las solicitudes que estamos protegiendo.
+                    </li>
+                    <li class="texto">
+                        Vizualiza el tráfico en tu servidor.
+                    </li>
+                    <li class="texto">
+                        Controla tus servidores desde tu celular.
+                    </li>
+                </ul>
+            </div>
+            <div style="display: flex; justify-content: center; padding: 3%;">
+                <img src="resources/images/app.png" style="width: 435px; height: 71px;">
+            </div>
+            
+
+        </div>
+    </body>
+</html>

@@ -24,14 +24,10 @@
         <a href="/contact">Contacto</a>
 
         <% if(login){ %>
-
-<h2 style="font-family:  'nunito', sans-serif; font-size: 1.5rem; padding-right: 3.5rem; color: white; font-style: normal;">
-   <%= name %>
-</h2>
+            <a href="/dashboard">Dashboard</a>
         <% }else{ %>
             <a href="/login">Log In</a>
         <% } %>
-
     </div>
     <div class="landing">
         <svg class="fondolanding"width="100%" height="696" viewBox="0 0 1292 696" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -137,6 +133,12 @@
 
 
     </div>
+    <div style="background-color: #E2E2E2; display: flex; justify-content: center; padding-bottom: 3%">
+        <a href="/app">
+            <img src="resources/images/app.png" style="width: 435px; height: 71px;">
+        </a>
+    </div>
+    
     <footer>
         <div  class="row">
             <div style="display: flex; align-content: center; justify-content: center;"> 
