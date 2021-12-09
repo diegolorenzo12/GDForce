@@ -125,11 +125,8 @@
         <a href="/about">About</a>
         <a href="/contact">Contacto</a>
 
-                <% if(login){ %>
-
-<h2 style="font-family:  'nunito', sans-serif; font-size: 1.5rem; padding-right: 3.5rem; color: white; font-style: normal;">
-   <%= name %>
-</h2>
+        <% if(login){ %>
+            <a href="/dashboard">Dashboard</a>
         <% }else{ %>
             <a href="/login">Log In</a>
         <% } %>
@@ -190,7 +187,22 @@
         <h1>Ubicación</h1>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d491839.5847428632!2d-122.34811641582661!3d37.40108316360488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb68ad0cfc739%3A0x7eb356b66bd4b50e!2sSilicon%20Valley%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses-419!2smx!4v1633416675384!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
-        <footer>
+        
+    <div>
+        <center>
+            <h1>IoT</h1>
+        </center>
+        <div style="display: flex;" >
+            <p style="color: black; padding-bottom: 3%; padding-left:8% ; padding-right:5%; padding-top:10%;">
+            Como empresa nos comprometemos a cuidar el medio ambiente. Es por esto por lo que utilizamos tecnología de punta en nuestros servidores para ahorrar energía. Los centros de operaciones de GDFence donde se hospedan los servidores y toda la tecnología necesaria para realizar nuestras labores requieren un vasto consumo de energía eléctrica, debido a la gran cantidad de dispositivos electrónicos con los que se cuentan. Con el uso de medidores de energía inteligente se registran todos los valores de energía y se manda dicha información a los proveedores del producto, estos proveedores analizan la información y regresan un reporte sobre el comportamiento del consumo de energía eléctrica que se realiza, lo que permitirá hacer un uso eficiente de energía.
+            </p>
+            <img src="resources/images/iot.jfif" style="width: 50%;">
+        </div>
+        
+    </div>
+    
+    
+    <footer>
         <div  class="row">
             <div style="display: flex; align-content: center; justify-content: center;"> 
                 <div>
